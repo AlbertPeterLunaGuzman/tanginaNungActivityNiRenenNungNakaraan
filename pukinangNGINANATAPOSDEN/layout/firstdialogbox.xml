@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+            <TextView
+                android:id="@+id/text"
+                android:text="Dialog Box 1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+            />
+            <Button
+                android:id="@+id/firstDialogButton"
+                android:text="OK"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_marginTop="20dp"
+            />
+            <ImageView
+                android:id="@+id/dBoxImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/griz"
+                android:layout_toRightOf="@+id/text"
+                android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:text="Dialog Box 1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dBoxImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+        />
+</RelativeLayout>
